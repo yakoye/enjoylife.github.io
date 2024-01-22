@@ -198,10 +198,10 @@ header {
 
 #banner {
   z-index: 100;
-  left:0;
-  right:50%;
+  left:-12px;
+  //right:50%;
   height: 50px;
-  margin-right:-382px;
+  width: 100%;
   position: fixed;
   top: 115px;
   background: #ffcc00;
@@ -415,7 +415,8 @@ footer {
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0;
+    // padding: 20px 0;
+    padding: 30px 30px 50px 30px;
     margin: 190px auto 20px;
     max-width: 600px;
   }
@@ -475,6 +476,8 @@ footer {
   section {
     margin-top: 130px;
     margin-bottom: 0px;
+    //padding:  上、右、下、左
+    padding: 30px 20px 50px 20px;
     width: auto;
   }
 
