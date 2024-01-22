@@ -1,7 +1,7 @@
-# enjoylife.github.io
+# Enjoylife Blog
 
 
-=> [enjoylife-blog](https://yakoye.github.io/enjoylife.github.io/) <=
+Click here: [enjoylife-blog](https://yakoye.github.io/enjoylife.github.io/)
 
-
+URL: `https://yakoye.github.io/enjoylife.github.io/`
 
