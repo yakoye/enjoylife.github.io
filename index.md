@@ -2,9 +2,13 @@
 layout: default
 ---
 
+
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./docs/another-page.html).
+
+[竞选者ENFP-A、ENFP-T](./docs/竞选者ENFP-A、ENFP-T.md)
 
 There should be whitespace between paragraphs.
 
