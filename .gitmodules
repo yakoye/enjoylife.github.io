@@ -1,0 +1,3 @@
+[submodule "docs/booklist"]
+    path = docs/booklist
+    url = https://github.com/username/booklist.git
