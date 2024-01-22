@@ -272,7 +272,9 @@ header {
   }
   .downloads {
     float: right;
-    margin: 0 45px 0 0;
+    // margin: 0 45px 0 0;
+    //margin-right: 60px;
+    display: none;
 
     span {
       float: left;
@@ -433,7 +435,8 @@ footer {
     width: 100%;
 
     .downloads {
-      margin-right: 60px;
+      //margin-right: 60px;
+      display: none;
     }
 
     .fork {
@@ -503,7 +506,8 @@ footer {
     }
 
     .downloads {
-      margin-right: 60px;
+      // margin-right: 60px;
+      display: none;
     }
   }
 
