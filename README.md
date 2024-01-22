@@ -1,7 +1,7 @@
 # enjoylife.github.io
 
 
-[yakoye/enjoylife.github.io](https://github.com/enjoylife.github.io)
+[enjoylife-blog](https://yakoye.github.io/enjoylife.github.io/)
 
 
 
