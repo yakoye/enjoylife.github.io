@@ -232,10 +232,9 @@ header {
     }
   }
 
-  .fork {
+  .home {
     position:fixed;
-    left:50%;
-    margin-left:-325px;
+    left: 10px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
@@ -243,6 +242,16 @@ header {
     background-color: #FFE788;
   }
 
+  .fork {
+    position:fixed;
+    left: 80px;
+    padding: 10px 12px;
+    margin-left: 5px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-color: #FFE788;
+  }
   .downloads {
     float: right;
     margin:0 45px 0 0;
@@ -445,14 +454,22 @@ footer {
   #banner {
     top: 80px;
 
+    // .fork {
+    //   float: left;
+    //   display: inline-block;
+    //   margin-left: 0px;
+    //   position:fixed;
+    //   left:20px;
+    //   }
     .fork {
-      float: left;
-      display: inline-block;
-      margin-left: 0px;
-    position:fixed;
-    left:20px;
-
       }
+
+    .home {      
+    }
+    
+    .downloads {
+      margin-right: 60px;
+    }
   }
 
   section {
@@ -468,31 +485,82 @@ footer {
 
 @media print, screen and (max-width: 480px) {
   body {
+    word-wrap:break-word;
   }
 
-  header{
-    position: relative;
-    padding: 5px 0px;
-    min-height: 0px;
+  header {
+    padding:5px 0px;
+    margin: 0;
 
     h1 {
-      font-size: 24px;
+      font-size: 32px;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
       -o-text-overflow: ellipsis;
       -ms-text-overflow: ellipsis;
     }
-  }
-  section {
-    margin-top: 5px;
+
+    p { display: none;}
   }
 
-  #banner { display: none;}
-  header ul {
-    display:none;
+  #banner {
+    width: 100%;
+
+    .fork {
+        
+      }
+
+    .home {      
+    }
+
+    .downloads {
+      display:none;
+    }
+
+    #logo {
+      margin-right: 15px;
+    }
   }
+
+  // section {
+  //   margin-top: 130px;
+  //   margin-bottom: 0px;
+  //   width: auto;
+  // }
+
+  // header ul, header p.view {
+  //   position:static;
+  // }
 }
+
+// @media print, screen and (max-width: 480px) {
+//   body {
+//   }
+
+//   header{
+//     position: relative;
+//     padding: 5px 0px;
+//     min-height: 0px;
+
+//     h1 {
+//       font-size: 24px;
+//       white-space: nowrap;
+//       overflow: hidden;
+//       text-overflow: ellipsis;
+//       -o-text-overflow: ellipsis;
+//       -ms-text-overflow: ellipsis;
+//     }
+//   }
+//   section {
+//     margin-top: 5px;
+//   }
+
+//   #banner { display: none;}
+//   header ul {
+//     display:none;
+//   }
+// }
 
 @media print {
   body {
@@ -516,7 +584,7 @@ footer {
 
 @media print, screen and (max-height: 480px) {
   nav {
-    display: none;
+    // display: none;
   }
 
   footer {
