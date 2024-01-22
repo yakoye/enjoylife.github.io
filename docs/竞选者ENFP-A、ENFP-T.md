@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # 竞选者性格
 
 ENFP-A / ENFP-T
@@ -320,3 +324,5 @@ https://www.16personalities.com/ch/enfp-%E4%BA%BA%E6%A0%BC
 
 https://www.16personalities.com/enfp-personality
 
+
+[back](./)
